@@ -5,8 +5,13 @@ export default function Header() {
   return (
     <div>
       <header>
-        <nav>
-          <img src={Logo} alt="logo" width="80px" />
+        <nav className="nav">
+          <img src={Logo} alt="logo" width="60px" />
+          <ul className="nav-item">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
         </nav>
       </header>
     </div>
